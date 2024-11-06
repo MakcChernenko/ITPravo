@@ -21,13 +21,13 @@ return(
                         <p>{kard.sutSpravy}</p>
                     </div>
                     <div>
-                        <h3>Вирок</h3>
-                        <p>{kard.vyrok}</p>
-                    </div>
-                    <div>
                         <h3>Обставини</h3>
                         <p>{kard.obstavyny}</p>
                 </div>
+                    <div>
+                        <h3>Вирок</h3>
+                        <p>{kard.vyrok}</p>
+                    </div>
                 </div>)}
             </div>
         );
