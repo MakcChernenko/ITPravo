@@ -4,7 +4,8 @@ function App() {
 
   return (
     <>
-      <h1>ДЗ по ІТ-праву</h1>
+      <h1 className=''>Виконана робота по ІТ-праву</h1>
+      <button type='button'style={{border:"black solid 1px"}} ><a href="../conspect.html" style={{color: "green"}} >конспект</a></button>
       <SudList/>
     </>
   )
