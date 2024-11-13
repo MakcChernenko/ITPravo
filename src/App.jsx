@@ -28,7 +28,7 @@ function App() {
         </section>
 
         <section>
-          <h2>Судові рішення</h2>
+          <h2 className='title2' >Судові рішення</h2>
           <SudList/>
           </section>
       </main>

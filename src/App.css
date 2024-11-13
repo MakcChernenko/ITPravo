@@ -165,7 +165,9 @@ div > h2 {
   font-size: 20px;
   color: #333;
 }
-
+.title2{
+  color: black;
+}
 div > h3 {
   font-size: 18px;
   color: #555;
