@@ -10,8 +10,11 @@ return(
     <div>
     {kards.map((kard, index) => {
         return (
-            <div onClick={()=>toggleAccordion(index)} style={{cursor: "pointer",
-                border: "black solid 1px",margin:"10px"
+            <div onClick={()=>toggleAccordion(index)} style={{ cursor: "pointer",
+                border: "black solid 1px",
+                margin: "10px",
+                padding: "10px",
+                borderRadius: "5px",
             }}  key={index}>
                 <h2>{kard.stattya}</h2>
                     <h3>{kard.nomer}</h3>
@@ -25,8 +28,11 @@ return(
                         <p>{kard.obstavyny}</p>
                 </div>
                     <div>
-                        <h3>Вирок</h3>
-                        <p>{kard.vyrok}</p>
+                        <h3>{kard.vyrok === "" ? "ухвала" : "вирок"}</h3>
+                        <p>{kard.vyrok !== "" ? kard.vyrok : kard.uhvala}</p>
+                    </div>
+                    <div>
+                        <a href={kard.link}>посилання на судовий реєстр (link)</a>
                     </div>
                 </div>)}
             </div>
