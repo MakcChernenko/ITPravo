@@ -24,7 +24,7 @@ function App() {
         <section className="hero">
           <h1 className='title'>Виконана робота по ІТ-праву</h1>
           <a className='hero-link' href="./conspect.html" >конспект перших уроків</a>
-          <a className='hero-link' href="../public/myConspect.html" target="_blank" rel="noopener noreferrer">Мої замітки</a>
+          <a className='hero-link' href="./myConspect.html" target="_blank" rel="noopener noreferrer">Мої замітки</a>
         </section>
 
         <section>
