@@ -23,12 +23,7 @@ function App() {
   return (
     <>
       <header className="header">
-        <a
-          className="logo-link"
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="logo-link" href="http://" rel="noopener noreferrer">
           {" "}
           <div className="logo">
             <span className="name">
@@ -53,7 +48,6 @@ function App() {
           <a
             className="hero-link"
             href="./myConspect.html"
-            target="_blank"
             rel="noopener noreferrer"
           >
             Мої замітки
